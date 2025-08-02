@@ -2,6 +2,8 @@
 
 A lightweight, role-based support ticketing application built with Python and Streamlit. Users can register, open and manage their own support tickets, while support agents have a global view and can manage tickets across all users.
 
+#### Checkout the deployed version here: https://ticketingsystem.streamlit.app/
+
 ## ✨ Features
 
 * 🔐 **User & Support Agent Authentication**
