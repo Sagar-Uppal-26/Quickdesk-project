@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+<h2>All Tickets</h2>
+<ul>
+    {% for ticket in tickets %}
+        <li>
+            <a href="{{ url_for('view_ticket', ticket_id=ticket.id) }}">
+                [#{{ ticket.id }}] {{ ticket.subject }} - {{ ticket.status }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+</body>
+</html>
