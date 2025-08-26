@@ -155,4 +155,4 @@ This project is open source under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgments
 
-Built with ❤️ using Streamlit by \[Your Name].
+Built with ❤️ using Streamlit by \Sagar Uppal.
